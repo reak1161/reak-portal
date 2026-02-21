@@ -1,0 +1,22 @@
+export type Platform = "web" | "windows" | "android" | "ios" | "steam" | "other";
+
+export type Product = {
+  slug: string;
+  title: string;
+  short: string;
+  platforms: Platform[];
+  playUrl?: string;
+  downloadUrl?: string;
+  status?: "released" | "demo" | "dev";
+};
+
+export const products: Product[] = [
+  {
+    slug: "highroll",
+    title: "HighRoll",
+    short: "カード×役職×読み合いのオンライン対戦ゲーム。",
+    platforms: ["web"],
+    playUrl: "https://highroll.reak1161.com/",
+    status: "released",
+  },
+];
