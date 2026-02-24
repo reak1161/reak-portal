@@ -19,4 +19,12 @@ export const products: Product[] = [
     playUrl: "https://highroll.reak1161.com/",
     status: "released",
   },
+  {
+    slug: "mahjong-score-practice",
+    title: "Mahjong Score Practice",
+    short: "Mahjong scoring practice app.",
+    platforms: ["web"],
+    playUrl: "https://mahjong.reak1161.com/",
+    status: "released",
+  },
 ];
