@@ -27,4 +27,12 @@ export const products: Product[] = [
     playUrl: "https://mahjong.reak1161.com/",
     status: "released",
   },
+  {
+    slug: "three-turn",
+    title: "Three Turn",
+    short: "Three-turn web app.",
+    platforms: ["web"],
+    playUrl: "https://three-turn.reak1161.com/",
+    status: "released",
+  },
 ];
