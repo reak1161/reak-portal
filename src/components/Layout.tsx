@@ -6,7 +6,8 @@ export default function Layout() {
       <header className="container">
         <h1 style={{ marginBottom: 6 }}>りーくのぺーじ</h1>
         <p className="muted" style={{ marginTop: 0 }}>
-          いろいろまとめる
+        個人制作のゲームやツールをまとめたポータルサイトです。
+        Web作品のプレイリンクや、各作品の概要・更新情報を掲載しています。
         </p>
         <nav className="nav">
           <Link to="/">Home</Link>
@@ -21,7 +22,7 @@ export default function Layout() {
       </main>
 
       <footer className="container footer">
-        <div className="muted">© {new Date().getFullYear()} りーくのぺーじ</div>
+        <div className="muted">© {new Date().getFullYear()} reak Games</div>
       </footer>
     </div>
   );

@@ -12,12 +12,12 @@ export type Product = {
 
 export const products: Product[] = [
   {
-    slug: "highroll",
-    title: "ハイロール",
-    short: "カード×役職×読み合いのオンライン対戦ゲーム",
-    platforms: ["web"],
-    playUrl: "https://highroll.reak1161.com/",
-    status: "released",
+  slug: "highroll",
+  title: "ハイロール",
+  short: "カードと役職を使って読み合うオンライン対戦ゲーム。",
+  platforms: ["web"],
+  playUrl: "https://highroll.reak1161.com/",
+  status: "released",
   },
   {
     slug: "mahjong-score-practice",
