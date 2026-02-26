@@ -16,7 +16,7 @@ export default function Games() {
             </div>
             <h3 style={{ marginTop: 10, marginBottom: 6 }}>{p.title}</h3>
             <p className="muted" style={{ marginTop: 0 }}>{p.short}</p>
-            <Link className="btn" to={`/games/${p.slug}`}>Open</Link>
+            <Link className="btn" to={`/games/${p.slug}`}>開く</Link>
           </div>
         ))}
       </div>

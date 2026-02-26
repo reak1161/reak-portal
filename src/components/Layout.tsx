@@ -21,7 +21,7 @@ export default function Layout() {
       </main>
 
       <footer className="container footer">
-        <div className="muted">© {new Date().getFullYear()} Reak Games</div>
+        <div className="muted">© {new Date().getFullYear()} りーくのぺーじ</div>
       </footer>
     </div>
   );

@@ -16,13 +16,13 @@ export default function Home() {
             </div>
             <h3 style={{ marginTop: 10, marginBottom: 6 }}>{p.title}</h3>
             <p className="muted" style={{ marginTop: 0 }}>{p.short}</p>
-            <Link className="btn" to={`/games/${p.slug}`}>Details</Link>
+            <Link className="btn" to={`/games/${p.slug}`}>詳細</Link>
           </div>
         ))}
       </div>
 
       <h2 style={{ marginTop: 24 }}>All</h2>
-      <Link className="btn" to="/games">Browse</Link>
+      <Link className="btn" to="/games">ゲーム一覧を見る</Link>
     </div>
   );
 }

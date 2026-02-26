@@ -28,12 +28,12 @@ export default function GameDetail() {
 
       <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
         {p.playUrl && (
-          <a className="btn" href={p.playUrl} target="_blank" rel="noreferrer">Play</a>
+          <a className="btn" href={p.playUrl} target="_blank" rel="noreferrer">遊ぶ</a>
         )}
         {p.downloadUrl && (
           <a className="btn" href={p.downloadUrl} target="_blank" rel="noreferrer">Download</a>
         )}
-        <Link className="btn" to="/games">Back</Link>
+        <Link className="btn" to="/games">戻る</Link>
       </div>
     </div>
   );
