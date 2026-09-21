@@ -22,7 +22,7 @@ export const products: Product[] = [
   {
     slug: "mahjong-score-practice",
     title: "麻雀点数計算練習用サイト",
-    short: "麻雀の点数計算練習ができるツール",
+    short: "麻雀の点数計算を練習できる学習用ツール",
     platforms: ["web"],
     playUrl: "https://mahjong.reak1161.com/",
     status: "released",
@@ -30,7 +30,7 @@ export const products: Product[] = [
   {
     slug: "three-turn",
     title: "３ターンで終わるゲーム",
-    short: "３ターンで終わる正体秘匿系ゲーム",
+    short: "短時間で遊べる正体秘匿系ゲーム",
     platforms: ["web"],
     playUrl: "https://three-turn.reak1161.com/",
     status: "released",
