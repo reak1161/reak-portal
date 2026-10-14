@@ -5,6 +5,8 @@ export type Product = {
   title: string;
   short: string;
   platforms: Platform[];
+  imageUrl?: string;
+  imageAlt?: string;
   playUrl?: string;
   downloadUrl?: string;
   status?: "released" | "demo" | "dev";
